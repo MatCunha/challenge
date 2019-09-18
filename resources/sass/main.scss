@@ -69,3 +69,86 @@ a{
 .navbar-icons div i{
     font-size: 2.4rem;
 }
+
+.hide{
+    width: 330px;
+    display: none;
+    position: absolute;
+    right: 40px;
+}
+
+.hide-scroller{
+    overflow-y: auto;
+    height: 300px;
+}
+
+.hide-product{
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: #efefef;
+    border: 1px solid #e1e1e1;
+}
+
+.hide-img{
+    width: 100px;
+    height: 100px;
+}
+
+.colum-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 10px;
+}
+
+.colum-product p{
+    font-size: 2rem;
+}
+
+.colum-product p span{
+    font-size: 2rem;
+    color: green;
+    font-weight: 700;
+    text-align: right;
+}
+
+.hide-total{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #e1e1e1;
+}
+
+.hide-total p{
+    font-size: 2rem;
+    color: darkslategray;
+    font-weight: 400;
+}
+
+.hide-total span{
+    font-size: 2rem;
+    color: darkslategray;
+    font-weight: 700;
+}
+
+.hide-button{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.4rem;
+    color: white;
+    background-color: green;
+}
+
+.hide-button a{
+    font-size: 2rem;
+    color: white;
+    background-color: green;
+    font-weight: 700;
+}
