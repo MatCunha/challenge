@@ -36,3 +36,7 @@ Então mãos a obra e bom challenge ;)
 - Boa descrição das funcionalidades do desafio
 - Fidelidade ao design proposto
 - Adaptação mobile
+
+## Como executar 
+Faça um clone do projeto e rode o comando: npm install 
+As dependências serão instaladas e você poderá acessar o projeto no arquivo index.html dentro da pasta resources. 
