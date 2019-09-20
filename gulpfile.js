@@ -47,13 +47,18 @@ gulp.task('concat', function (){
 //minify js
 gulp.task('compress', function() {
     gulp.src('resources/js/scripts.js')
-      .pipe(minify())
+      .pipe(minify({
+        ext:{
+            src:'.js',
+            min:'.js'
+        },
+      }))
       .pipe(gulp.dest('dist/js'))
   });
 
 //minify css
 gulp.task('minify-css', function(){
-    return gulp.src('resources/css/concat/main.css')
+    return gulp.src('resources/css/main.css')
     .pipe(cleanCSS({compatibility: 'ie9'}))
     .pipe(gulp.dest('dist/css'));
 });
